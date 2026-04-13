@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/scandi_motors_front/static/css/main.f2798ae9.css",
-    "main.js": "/scandi_motors_front/static/js/main.fdb3c8aa.js",
+    "main.css": "/scandi_motors_front/static/css/main.6934b854.css",
+    "main.js": "/scandi_motors_front/static/js/main.5686eb55.js",
     "index.html": "/scandi_motors_front/index.html",
-    "main.f2798ae9.css.map": "/scandi_motors_front/static/css/main.f2798ae9.css.map",
-    "main.fdb3c8aa.js.map": "/scandi_motors_front/static/js/main.fdb3c8aa.js.map"
+    "main.6934b854.css.map": "/scandi_motors_front/static/css/main.6934b854.css.map",
+    "main.5686eb55.js.map": "/scandi_motors_front/static/js/main.5686eb55.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2798ae9.css",
-    "static/js/main.fdb3c8aa.js"
+    "static/css/main.6934b854.css",
+    "static/js/main.5686eb55.js"
   ]
 }
