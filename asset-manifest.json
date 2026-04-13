@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scandi_motors_front/static/css/main.f2798ae9.css",
+    "main.js": "/scandi_motors_front/static/js/main.d429a678.js",
+    "index.html": "/scandi_motors_front/index.html",
+    "main.f2798ae9.css.map": "/scandi_motors_front/static/css/main.f2798ae9.css.map",
+    "main.d429a678.js.map": "/scandi_motors_front/static/js/main.d429a678.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2798ae9.css",
+    "static/js/main.d429a678.js"
+  ]
+}
