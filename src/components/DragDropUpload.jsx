@@ -2,7 +2,7 @@ import { useState, useRef, useCallback } from "react";
 import { Upload, X, Image, Loader2 } from "lucide-react";
 import axios from "axios";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 
 export default function DragDropUpload({ value, onChange, token, testId = "image-upload" }) {
   const [dragging, setDragging] = useState(false);
