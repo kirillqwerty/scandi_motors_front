@@ -89,7 +89,7 @@ export default function CommissionPage() {
           <h2 className="font-heading text-2xl font-bold mb-3">Хотите продать свой автомобиль?</h2>
           <p className="text-zinc-400 font-light mb-6 max-w-lg mx-auto">Привезите автомобиль на оценку или позвоните — мы всё организуем</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+375291234567" className="btn-primary">Позвонить</a>
+            <a href="tel:+375336987799" className="btn-primary">Позвонить</a>
             <Link to="/#contact" className="btn-outline">Оставить заявку</Link>
           </div>
         </div>

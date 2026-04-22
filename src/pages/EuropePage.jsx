@@ -108,7 +108,7 @@ export default function EuropePage() {
           <h2 className="font-heading text-2xl font-bold mb-3">Хотите автомобиль из Европы?</h2>
           <p className="text-zinc-400 font-light mb-6 max-w-lg mx-auto">Расскажите, какой автомобиль вам нужен, и мы подберём лучший вариант</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+375291234567" className="btn-primary">Позвонить</a>
+            <a href="tel:+375336987799" className="btn-primary">Позвонить</a>
             <Link to="/#contact" className="btn-outline">Оставить заявку</Link>
           </div>
         </div>

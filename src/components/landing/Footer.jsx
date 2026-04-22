@@ -33,9 +33,9 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="text-xs uppercase tracking-wider font-semibold text-zinc-400 mb-3">Контакты</h4>
-            <p className="text-sm text-zinc-500 mb-1">+375 (29) 123-45-67</p>
-            <p className="text-sm text-zinc-500 mb-1">info@scandimotors.by</p>
-            <p className="text-sm text-zinc-500">Минск, ул. Автомобильная, 42</p>
+            <p className="text-sm text-zinc-500 mb-1">+375 (33) 698-77-99</p>
+            <p className="text-sm text-zinc-500 mb-1">scandimotorsby@gmail.com</p>
+            <p className="text-sm text-zinc-500">г. Минск, ул. Горецкого, 30</p>
           </div>
         </div>
         <div className="pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">

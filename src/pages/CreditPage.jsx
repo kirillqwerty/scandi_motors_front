@@ -10,9 +10,9 @@ const fadeUp = {
 };
 
 const creditFeatures = [
-  { icon: Percent, title: "Ставки от 12% годовых", desc: "Работаем с ведущими банками Беларуси для получения лучших условий" },
-  { icon: FileText, title: "Минимум документов", desc: "Паспорт и водительское удостоверение — всё, что нужно для оформления" },
-  { icon: Calculator, title: "Первый взнос от 10%", desc: "Возможность приобрести автомобиль с минимальным первоначальным платежом" },
+  { icon: Percent, title: "Ставки от 14.75% годовых", desc: "Работаем с ведущими банками Беларуси для получения лучших условий" },
+  { icon: FileText, title: "Минимум документов", desc: "Паспорт — всё, что нужно для оформления. Водительское удостоверение не обязательно" },
+  { icon: Calculator, title: "Без первоначального взноса", desc: "Возможность приобрести автомобиль без первоначального взноса" },
   { icon: Building, title: "Лизинг для юр. лиц", desc: "Специальные условия для компаний с налоговыми преимуществами" },
 ];
 
@@ -71,7 +71,7 @@ export default function CreditPage() {
           <h2 className="font-heading text-2xl font-bold mb-3">Рассчитайте свой кредит</h2>
           <p className="text-zinc-400 font-light mb-6 max-w-lg mx-auto">Свяжитесь с нами для бесплатного расчёта условий кредитования или лизинга</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="tel:+375291234567" className="btn-primary">Позвонить</a>
+            <a href="tel:+375336987799" className="btn-primary">Позвонить</a>
             <Link to="/#contact" className="btn-outline">Оставить заявку</Link>
           </div>
         </div>

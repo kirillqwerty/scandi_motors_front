@@ -1,14 +1,23 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
+import backgroundCar from "@/assets/peugot5008.png";
 
-const HERO_BG = "https://images.unsplash.com/photo-1760713170685-b67abc3be5ad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBjYXIlMjBkYXJrJTIwc3R1ZGlvJTIwbGlnaHRpbmd8ZW58MHx8fHwxNzc1ODIwNTQ3fDA&ixlib=rb-4.1.0&q=85";
+const HERO_BG =
+  "https://images.unsplash.com/photo-1760713170685-b67abc3be5ad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBjYXIlMjBkYXJrJTIwc3R1ZGlvJTIwbGlnaHRpbmd8ZW58MHx8fHwxNzc1ODIwNTQ3fDA&ixlib=rb-4.1.0&q=85";
 
 export default function Hero() {
   return (
-    <section data-testid="hero-section" className="relative h-screen w-full overflow-hidden">
+    <section
+      data-testid="hero-section"
+      className="relative h-screen w-full overflow-hidden"
+    >
       <div className="absolute inset-0">
-        <img src={HERO_BG} alt="Luxury car" className="w-full h-full object-cover object-center" />
+        <img
+          src={backgroundCar}
+          alt="Luxury car"
+          className="w-full h-full object-cover object-center"
+        />
         <div className="gradient-overlay absolute inset-0" />
       </div>
 
@@ -18,20 +27,33 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.4, 0, 0.2, 1] }}
         >
-          <p className="text-xs uppercase tracking-[0.3em] font-semibold text-brand-gold mb-4" data-testid="hero-tagline">
+          <p
+            className="text-xs uppercase tracking-[0.3em] font-semibold text-brand-gold mb-4"
+            data-testid="hero-tagline"
+          >
             Scandi Motors / Минск
           </p>
-          <h1 data-testid="hero-title" className="font-heading text-5xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.9] mb-6">
+          <h1
+            data-testid="hero-title"
+            className="font-heading text-5xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.9] mb-6"
+          >
             Продажа и подбор
             <br />
             <span className="text-brand-gold">автомобилей</span>
           </h1>
-          <p data-testid="hero-subtitle" className="text-base md:text-lg text-zinc-400 font-light max-w-lg mb-10 leading-relaxed">
+          <p
+            data-testid="hero-subtitle"
+            className="text-base md:text-lg text-zinc-400 font-light max-w-lg mb-10 leading-relaxed"
+          >
             Продажа, подбор из Европы, кредит, лизинг, комиссия.
             Профессиональный подход к каждому клиенту.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/catalog" data-testid="hero-catalog-btn" className="btn-primary inline-block text-center">
+            <Link
+              to="/catalog"
+              data-testid="hero-catalog-btn"
+              className="btn-primary inline-block text-center"
+            >
               Каталог авто
             </Link>
             <button

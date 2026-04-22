@@ -9,9 +9,9 @@ const fadeUp = {
 };
 
 const contactInfo = [
-  { icon: Phone, label: "+375 (29) 123-45-67", href: "tel:+375291234567" },
-  { icon: Mail, label: "info@scandimotors.by", href: "mailto:info@scandimotors.by" },
-  { icon: MapPin, label: "Минск, ул. Автомобильная, 42", href: null },
+  { icon: Phone, label: "+375 (33) 698-77-99", href: "tel:+375336987799" },
+  { icon: Mail, label: "scandimotorsby@gmail.com", href: "mailto:scandimotorsby@gmail.com" },
+  { icon: MapPin, label: "г. Минск, ул. Горецкого, 30", href: null },
 ];
 
 export default function ContactForm() {
@@ -59,9 +59,8 @@ export default function ContactForm() {
             </div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={6} className="mt-10 p-5 border border-white/10 bg-brand-surface" data-testid="work-hours">
               <p className="text-xs uppercase tracking-[0.15em] font-semibold text-zinc-500 mb-2">Режим работы</p>
-              <p className="text-sm text-zinc-300">Пн-Пт: 9:00 — 19:00</p>
-              <p className="text-sm text-zinc-300">Сб: 10:00 — 16:00</p>
-              <p className="text-sm text-zinc-500">Вс: выходной</p>
+              <p className="text-sm text-zinc-300">Пн-Вс: 9:00 — 19:00</p>
+              <p className="text-sm text-zinc-500">Без выходных</p>
             </motion.div>
           </div>
           <motion.div className="lg:col-span-7" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={2}>

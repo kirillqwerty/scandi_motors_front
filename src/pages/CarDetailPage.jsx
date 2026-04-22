@@ -118,7 +118,7 @@ export default function CarDetailPage() {
             )}
 
             <div className="flex flex-col gap-3">
-              <a href="tel:+375291234567" data-testid="car-call-btn" className="btn-primary text-center">
+              <a href="tel:+375336987799" data-testid="car-call-btn" className="btn-primary text-center">
                 Позвонить
               </a>
               <Link to="/#contact" data-testid="car-inquiry-btn" className="btn-outline text-center">
