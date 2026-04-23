@@ -5,7 +5,7 @@ import { Search, FileCheck, Truck, CheckCircle, Globe, ShieldCheck, Clock, Dolla
 import Header from "@/components/landing/Header";
 import Footer from "@/components/landing/Footer";
 
-const EUROPE_IMG = "https://images.unsplash.com/photo-1763405919443-1ef37159e0ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwxfHxjYXIlMjBkcml2aW5nJTIwZXVyb3BlYW4lMjBhbHBzfGVufDB8fHx8MTc3NTgyMDU0N3ww&ixlib=rb-4.1.0&q=85";
+const EUROPE_IMG = "@/assets/scandi.jpg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },

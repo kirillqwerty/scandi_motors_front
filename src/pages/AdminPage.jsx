@@ -38,9 +38,7 @@ import {
 } from "@/components/ui/select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import api from "@/lib/api";
-
-const LOGO_URL =
-  "https://customer-assets.emergentagent.com/job_cars-minsk/artifacts/c8ngemgr_photo_2026-04-13_10-04-22.jpg";
+import LOGO_URL from "@/assets/scandi_motors_logo.jpg";
 
 export default function AdminPage() {
   const [token, setToken] = useState(localStorage.getItem("admin_token") || "");

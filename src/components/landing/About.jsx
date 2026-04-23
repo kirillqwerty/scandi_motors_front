@@ -1,14 +1,6 @@
 import { motion } from "framer-motion";
 import { Shield, Truck, Award, Clock } from "lucide-react";
 import ABOUT_IMG from "@/assets/peugot508.png";
-// const ABOUT_IMG =
-//   "https://images.unsplash.com/photo-1770064747916-1efbb1973ec7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxzdGVlcmluZyUyMHdoZWVsJTIwbHV4dXJ5JTIwY2FyJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzc1ODIwNTU4fDA&ixlib=rb-4.1.0&q=85";
-
-// const stats = [
-//   { number: "8+", label: "Лет на рынке" },
-//   { number: "500+", label: "Автомобилей продано" },
-//   { number: "200+", label: "Доставлено из Европы" },
-// ];
 
 const features = [
   {
