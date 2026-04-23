@@ -4,12 +4,10 @@ import { BrowserRouter } from "react-router-dom";
 import "@/index.css";
 import App from "@/App";
 
-const basename = import.meta.env.DEV ? "/" : "/scandi_motors_front/";
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

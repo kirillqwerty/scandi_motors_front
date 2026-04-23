@@ -1,7 +1,6 @@
 {
-  "name": "frontend",
-  "homepage": "https://kirillqwerty.github.io/scandi_motors_front/",
-  "private": true,
+  "name": "scandimotors",
+  "homepage": "https://scandimotors.by/",
   "version": "0.1.0",
   "scripts": {
     "start": "vite",
