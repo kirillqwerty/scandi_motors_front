@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-
-const LOGO_URL = "https://customer-assets.emergentagent.com/job_cars-minsk/artifacts/c8ngemgr_photo_2026-04-13_10-04-22.jpg";
+import logo from "@/assets/logo/scandi_motors_logo.png";
 
 export default function Footer() {
   return (
@@ -9,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <Link to="/" className="flex items-center gap-3 mb-4">
-              <img src={LOGO_URL} alt="Scandi Motors" className="h-10" />
+              <img src={logo} alt="Scandi Motors" className="h-10" />
             </Link>
             <p className="text-xs text-zinc-500 leading-relaxed">
               Продажа и подбор автомобилей в Минске. Пригон из Европы, кредит, лизинг, комиссия.
